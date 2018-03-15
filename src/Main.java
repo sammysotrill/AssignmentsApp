@@ -1,4 +1,6 @@
 
+import jdk.nashorn.internal.ir.Assignment;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -9,7 +11,7 @@ public class Main {
 
     }
 
-    public enum courses{
+    public enum course{
         CALC2,DATASTRUCTURES,WORLDCIVILIZATIONS,SPANISH
     }
 
@@ -23,24 +25,11 @@ public class Main {
         day favorite = day.SATURDAY;
         System.out.println("My favorite day is: " + favorite + "\n");
 
-        // Assing courses to days
-        /*courses nineAM = courses.WORLDCIVILIZATIONS;
-        courses tenAM = courses.DATASTRUCTURES;
-        courses twelvePM = courses.CALC2;*/
-        ArrayList<courses> initialize = MWFClasses(courses.WORLDCIVILIZATIONS,courses.DATASTRUCTURES,courses.CALC2);
-        System.out.println("I have these classes on Mondays, Wednesdays, and Fridays: " + initialize);
+        // generate 2 random assignments
+
+        Assignment assign1 = new Assignment( enum day,enum course, enum category)
 
 
-
-
-    }
-
-    public static ArrayList<courses> MWFClasses( courses worldcivilizations, courses datastructures, courses calc2){
-        ArrayList<courses> answer = new ArrayList<courses>();
-        answer.add(worldcivilizations,datastructures,calc2);
-
-
-        return answer;
     }
 
 }
