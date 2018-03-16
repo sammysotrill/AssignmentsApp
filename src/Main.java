@@ -1,5 +1,7 @@
 
 import jdk.nashorn.internal.ir.Assignment;
+import jdk.nashorn.internal.ir.Expression;
+import jdk.nashorn.internal.ir.Node;
 
 import java.util.ArrayList;
 
@@ -26,11 +28,13 @@ public class Main {
         System.out.println("My favorite day is: " + favorite + "\n");
 
         // generate 2 random assignments
-
-        Assignment assign1 = new Assignment( enum day,enum course, enum category)
+        Assignment assign1 = new Assignment();
+        Assignment assign2 = new Assignment();
+        System.out.println("The assignment is: " + assign1);
+        }
 
 
     }
 
-}
+
 
