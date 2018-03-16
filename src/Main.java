@@ -29,8 +29,6 @@ public class Main {
 
         // generate 2 random assignments
         Assignment assign1 = new Assignment();
-        Assignment assign2 = new Assignment();
-        System.out.println("The assignment is: " + assign1);
         }
 
 
