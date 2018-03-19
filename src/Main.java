@@ -1,9 +1,4 @@
 
-import jdk.nashorn.internal.ir.Assignment;
-import jdk.nashorn.internal.ir.Expression;
-import jdk.nashorn.internal.ir.Node;
-
-import java.util.ArrayList;
 
 public class Main {
 
