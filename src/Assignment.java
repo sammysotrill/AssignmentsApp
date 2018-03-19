@@ -21,4 +21,19 @@ public class Assignment {
         this.time = time;
         this.priority = priority;
     }
+
+    public Assignment copy(){
+        Assignment answer = new Assignment(this.time,this.priority);
+
+        return answer;
+
+
+    }
+
+    
+
+
+
+
+
 }

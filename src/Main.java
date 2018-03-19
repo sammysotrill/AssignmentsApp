@@ -29,8 +29,11 @@ public class Main {
         System.out.println("What is the second assignment?" + assign2 + "\n");
 
         // copy assignment 1 to assignment three
-        Assignment assign3 = new Assignment();
+        Assignment assign3 = assign1.copy();
         System.out.println("What is the third assignment? " + assign3 + "\n");
+
+        //override an assignments.equals() method
+
 
         }
 
