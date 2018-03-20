@@ -33,9 +33,11 @@ public class Main {
         System.out.println("What is the third assignment? " + assign3 + "\n");
 
         //override an assignments.equals() method
+        Assignment compare = assign1.compareTo(assign2);
+        System.out.println(compare);
 
 
-        }
+    }
 
 
 

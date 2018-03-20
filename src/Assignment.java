@@ -30,10 +30,19 @@ public class Assignment {
 
     }
 
-    
+    public Assignment compareTo(Assignment assign){
+        Assignment answer = new Assignment(this.time,this.priority);
+        if (answer.time.equals(assign.time)){
+            System.out.println("SAME");
 
+        }
 
+        else{
+            System.out.println("DIFFERENT");
+    }
 
+    return answer;
 
+    }
 
 }
