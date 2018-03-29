@@ -45,4 +45,15 @@ public class Assignment {
 
     }
 
+    public Assignment comeFirst(Assignment assign1, Assignment assign2, Assignment assign3){
+        if (assign1.priority > assign2.priority && assign1.priority > assign3.priority) {
+            return assign1;
+        }
+          if (assign2.priority > assign1.priority && assign2.priority > assign3.priority) {
+              return assign2;
+
+        }
+          if (assign3.priority > assign2.priority && assign3.priority > assign1.priority) {
+              return assign1;
 }
+    }

@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -33,8 +35,12 @@ public class Main {
         System.out.println("What is the third assignment? " + assign3 + "\n");
 
         //override an assignments.equals() method
-        Assignment compare = assign1.compareTo(assign2);
-        System.out.println(compare);
+        //Assignment compare = assign1.compareTo(assign2);
+        //System.out.println(compare);
+
+        // which of the assignments is the earliest?
+
+
 
 
     }
